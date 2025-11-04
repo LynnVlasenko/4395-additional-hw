@@ -1,0 +1,100 @@
+<section class="index-contact">
+  <div class="index-contact__header">
+    <h2 class="index-contact__title">Contact Us</h2>
+    <p class="index-contact__subtitle">
+      Most calendars are designed for teams.<br />
+      Slate is designed for freelancers.
+    </p>
+  </div>
+
+  <div class="index-contact__body">
+    <!-- Contact form -->
+    <form class="index-contact__form" action="#" method="post">
+      <h3 class="index-contact__form-title">Contact Us</h3>
+      <input
+        class="index-contact__input"
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required
+      />
+      <input
+        class="index-contact__input"
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required
+      />
+      <textarea
+        class="index-contact__textarea"
+        name="message"
+        placeholder="Your Message"
+        required
+      ></textarea>
+      <button class="index-contact__button" type="submit">Send</button>
+    </form>
+
+    <!-- Contact info and map -->
+    <div class="index-contact__info">
+      <ul class="index-contact__details">
+        <li class="index-contact__detail">
+          <img
+            class="index-contact__icon"
+            src="img/icons/location-blue.png"
+            alt="Location icon"
+          />
+          <p>
+            6386 Spring St undefined Anchorage,<br />
+            Georgia 12473 United States
+          </p>
+        </li>
+
+        <li class="index-contact__detail">
+          <svg
+            width="21"
+            height="33"
+            viewBox="0 0 21 33"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.0417 0H4.375C1.95417 0 0 1.95417 0 4.375V27.7083C0 30.1292 1.95417 32.0833 4.375 32.0833H16.0417C18.4625 32.0833 20.4167 30.1292 20.4167 27.7083V4.375C20.4167 1.95417 18.4625 0 16.0417 0ZM13.125 29.1667H7.29167V27.7083H13.125V29.1667ZM17.8646 24.7917H2.55208V4.375H17.8646V24.7917Z"
+              fill="#2091F9"
+            />
+          </svg>
+          <p>(843) 555-0130</p>
+        </li>
+
+        <li class="index-contact__detail">
+          <svg
+            width="27"
+            height="21"
+            viewBox="0 0 27 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25.3125 0H0.9375C0.418945 0 0 0.418945 0 0.9375V19.6875C0 20.2061 0.418945 20.625 0.9375 20.625H25.3125C25.8311 20.625 26.25 20.2061 26.25 19.6875V0.9375C26.25 0.418945 25.8311 0 25.3125 0ZM24.1406 3.24609V18.5156H2.10938V3.24609L1.30078 2.61621L2.45215 1.13672L3.70605 2.1123H22.5469L23.8008 1.13672L24.9521 2.61621L24.1406 3.24609ZM22.5469 2.10938L13.125 9.43359L3.70312 2.10938L2.44922 1.13379L1.29785 2.61328L2.10645 3.24316L12.1143 11.0244C12.4021 11.248 12.7561 11.3694 13.1206 11.3694C13.4851 11.3694 13.8391 11.248 14.127 11.0244L24.1406 3.24609L24.9492 2.61621L23.7979 1.13672L22.5469 2.10938Z"
+              fill="#2091F9"
+            />
+          </svg>
+          <p>willie.jennings@example.com</p>
+        </li>
+      </ul>
+
+      <div class="index-contact__map">
+        <img
+          src="img/index/contact-map.png"
+          alt="Map showing company location"
+          class="index-contact__map-image"
+        />
+      </div>
+
+      <div class="index-contact__socials"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global/global.social-links-blue.partial.html"
+      ></div>
+    </div>
+  </div>
+</section>
